@@ -4,6 +4,7 @@
     border: border-box;
 }
 
+/* NAVBAR */
 .navbar {
     height: 60px;
     background-color: #0F1111;
@@ -113,4 +114,35 @@ span {
 
 .nav-cart i {
     font-size: 2rem;
+}
+
+
+/* PANEL */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.all {
+    margin-left: 10px;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
 }
